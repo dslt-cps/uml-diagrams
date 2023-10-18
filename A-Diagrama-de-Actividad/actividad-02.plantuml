@@ -13,7 +13,18 @@ skinparam loopFontColor Black
 title Ejemplo 2
 
 start
-
+if (condition A) then (yes)
+  :Texto 1;
+elseif (condition B) then (yes)
+  :Texto 2;
+  stop
+(no) elseif (condition C) then (yes)
+  :Texto 3;
+(no) elseif (condition D) then (yes)
+  :Texto 4;
+else (nothing)
+  :Texto else;
+endif
 
 stop
 
