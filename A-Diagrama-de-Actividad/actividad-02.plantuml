@@ -10,28 +10,15 @@ skinparam loopBackgroundColor AMARILLO
 skinparam loopBorderColor AMARILLO
 skinparam loopFontColor Black
 
-title Programa de Interacción con Puerto Serie
+title Ejemplo 2
 
 start
 
-:Inicializar Componentes;
-
-while (Han pasado 500 ms?) is (no)
-  :Delay 100ms;
-endwhile (no)
-
-:Actualizar último momento de envío;
-:Parpadeo del LED;
-:Leer Humedad y Temperatura;
-:Leer Presión y Temperatura;
-:Leer Acelerómetro y Giroscopio;
-:Leer Acelerómetro LSM303AGR;
-:Leer Magnetómetro LSM303AGR;
-:Mostrar datos;
 
 stop
 
 @enduml
+
 
 
 
