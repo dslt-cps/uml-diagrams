@@ -1,0 +1,21 @@
+@startuml MaqEstado-Ej1
+
+!define AMARILLO #F3C328
+
+skinparam backgroundColor transparent
+skinparam stateBackgroundColor AMARILLO
+skinparam StateFontColor Blue
+
+title Máquina de Estado - Tres estados
+
+[*] --> Estado1 : Inicio
+Estado1 -> Estado2 : Cambio1
+Estado2 -> Estado3 : Cambio2
+Estado3 --> [*] : Fin
+Estado1 : Description 1
+Estado2 : Description 2
+Estado3 : Description 3
+@enduml
+
+
+

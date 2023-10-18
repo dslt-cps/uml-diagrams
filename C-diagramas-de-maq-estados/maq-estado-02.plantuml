@@ -1,0 +1,26 @@
+@startuml MaqEstado-Ej2
+
+!define CELESTE #87CEEB 
+
+skinparam backgroundColor transparent
+skinparam stateBackgroundColor CELESTE
+skinparam StateFontColor Black
+
+
+title Diagrama de Estado de la Cola de Mensajes + Workers State Chart
+
+state "Idle Queue" as Idle
+[*] -> Idle
+Idle -> Queue : Arribo de tarea
+Queue : Tarea se coloca en la cola.
+Queue -> Worker : Worker (trabajador) recolecta la tarea
+Worker -> ProcesandoTarea
+
+state ProcesandoTarea {
+  [*] --> long1
+  long1 --> ProcessData : Enough Data
+}
+
+ProcesandoTarea -> [*]
+
+@enduml

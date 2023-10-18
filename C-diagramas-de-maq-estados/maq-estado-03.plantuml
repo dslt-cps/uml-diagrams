@@ -1,0 +1,46 @@
+@startuml MaqEstado-Ej3
+
+!define CELESTE #87CEEB 
+
+skinparam backgroundColor transparent
+skinparam stateBackgroundColor CELESTE
+skinparam StateFontColor Black
+
+title Proceso de Desarrollo Área Modelado
+
+[*] -> Solicitud_Desarrollo
+note bottom
+        El pedido puede llegar al área en más de una forma 
+    end note
+
+Solicitud_Desarrollo --> Proceso_Inicio
+
+state Proceso_Inicio {
+    [*] --> Toma_Requerimientos
+    Toma_Requerimientos: * Reunirse con cliente
+    Toma_Requerimientos: * Relevar necesidades
+    Toma_Requerimientos: * Obtener permisos para fuentes de datos
+    Toma_Requerimientos --> Elaboracion_Documento_CU : Iniciar elaboración del documento de casos de uso
+} 
+
+Elaboracion_Documento_CU --> Proceso_Disenio : Firma de documento de caso de uso por los Stakeholders
+Elaboracion_Documento_CU: * Firma de documento de caso de uso
+Elaboracion_Documento_CU: * Priorización de tarea en back-log, durante Groomming
+
+state Proceso_Disenio {
+    [*] --> Diagramas_UML
+    Diagramas_UML : * Crear diagramas UML detallados
+    note bottom
+        Crear folder dentro del proyecto (Cod. fuente) para los disenios con PlantUML.
+    end note
+}
+
+Proceso_Disenio --> Proceso_Desarrollo : Inicio de Sprint-Backlog
+
+state Proceso_Desarrollo { 
+
+
+}
+    Proceso_Desarrollo -> [*]
+    
+@enduml
