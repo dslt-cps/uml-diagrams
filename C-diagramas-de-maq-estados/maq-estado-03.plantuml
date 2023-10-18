@@ -8,7 +8,7 @@ skinparam StateFontColor Black
 
 title Proceso de Desarrollo Área Modelado
 
-[*] -> Solicitud_Desarrollo
+[*] -down-> Solicitud_Desarrollo
 note bottom
         El pedido puede llegar al área en más de una forma 
     end note
@@ -20,7 +20,7 @@ state Proceso_Inicio {
     Toma_Requerimientos: * Reunirse con cliente
     Toma_Requerimientos: * Relevar necesidades
     Toma_Requerimientos: * Obtener permisos para fuentes de datos
-    Toma_Requerimientos --> Elaboracion_Documento_CU : Iniciar elaboración del documento de casos de uso
+    Toma_Requerimientos -down-> Elaboracion_Documento_CU : Iniciar elaboración del documento de casos de uso
 } 
 
 Elaboracion_Documento_CU --> Proceso_Disenio : Firma de documento de caso de uso por los Stakeholders
@@ -39,8 +39,22 @@ Proceso_Disenio --> Proceso_Desarrollo : Inicio de Sprint-Backlog
 
 state Proceso_Desarrollo { 
 
+}
+    Proceso_Desarrollo -down-> Verification
+
+
+state Verification {
+[*] -down-> Unit_Test
+--
+[*] -down-> Function_Test
+
+Function_Test -down-> Integration_Test
+--
+[*] -down-> Delivery_Test
 
 }
-    Proceso_Desarrollo -> [*]
+
+Verification -down-> Preview_Cliente
+
     
 @enduml
