@@ -1,0 +1,79 @@
+@startuml DSLClassProcess
+
+title Diagrama de clases
+
+' Definiciones
+' -----------
+
+' Paquete "com.ejemplo.dsl"
+interface IFaseDesarrolloDSL
+class AplicacionPrincipalDSL
+class DesarrolladorDSL
+class ProyectoDSL
+class EditorDSL
+class GramaticaDSL
+
+' Paquete "com.ejemplo.dsl.def"
+class DefinicionLenguaje
+class GeneracionCodigo
+class PruebaDSL
+class ExtensionDSL
+class TransformacionModelo
+class ValidacionDSL
+' Fin paquete
+
+' Contenido
+' ---------
+
+' AplicacionPrincipalDSL:
+AplicacionPrincipalDSL --> "*" IFaseDesarrolloDSL
+AplicacionPrincipalDSL : void iniciar()
+AplicacionPrincipalDSL : void ejecutarFases()
+
+' DesarrolladorDSL:
+DesarrolladorDSL --> "*" IFaseDesarrolloDSL
+DesarrolladorDSL : void desarrollarGramatica()
+DesarrolladorDSL : void definirModelo()
+
+' ProyectoDSL:
+ProyectoDSL --> "*" IFaseDesarrolloDSL
+ProyectoDSL : void configurar()
+ProyectoDSL : void generarCodigo()
+
+' EditorDSL:
+EditorDSL --> "*" IFaseDesarrolloDSL
+EditorDSL : void personalizarEditor()
+
+' GramaticaDSL:
+GramaticaDSL --> "*" IFaseDesarrolloDSL
+GramaticaDSL : void definirGramatica()
+
+' DefinicionLenguaje:
+IFaseDesarrolloDSL <|.. DefinicionLenguaje
+DefinicionLenguaje : void realizar()
+
+' GeneracionCodigo:
+IFaseDesarrolloDSL <|.. GeneracionCodigo
+GeneracionCodigo : void realizar()
+
+' PruebaDSL:
+IFaseDesarrolloDSL <|.. PruebaDSL
+PruebaDSL : void ejecutar()
+
+' ExtensionDSL:
+IFaseDesarrolloDSL <|.. ExtensionDSL
+ExtensionDSL : void realizar()
+
+' TransformacionModelo:
+IFaseDesarrolloDSL <|.. TransformacionModelo
+TransformacionModelo : void realizar()
+
+' ValidacionDSL:
+IFaseDesarrolloDSL <|.. ValidacionDSL
+ValidacionDSL : void realizar()
+
+
+
+
+
+@enduml

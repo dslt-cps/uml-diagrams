@@ -1,4 +1,4 @@
-@startuml sequenceEj-1
+@startuml sequenceEj-2
 !define BlueGreen [color=blue]
 !define GreenBlue [color=green]
 
@@ -15,20 +15,23 @@ participant "temip_services.py" as T
 participant "teams_searvices.py" as TT
 
 activate M
-M -[#Blue]-> E: getElasticpipTpsUsageData()
+M -[#Blue]-> E: getElasticStpIpTpsUsageData()
 activate E
 E -[#Green]-> M: stpElasticData
-M -> M: handleElasticSTPTpsUsageData()
 deactivate E
+M -> M: handleElasticSTPTpsUsageData()
+
+
+M -[#DarkRed]-> TT: sendProblemToTeams(data)
+
 
 M -[#Blue]-> E: getElasticSuccessRate()
 activate E
 E -[#Green]-> M: stpSuccessRate
-M -> M: handleElasticSTPTpsUsageData()
 deactivate E
-
+M -> M: handleElasticSTPTpsUsageData()
 M -[#DarkRed]-> TT: sendProblemToTeams(data)
-activate TT
+
 
 M -[#Blue]-> T: getSTPTemipAlarms()
 activate T
@@ -36,6 +39,9 @@ T -[#Green]-> M: stpTemipAlarms
 deactivate T
 
 M -> M: handleSTPTemipAlarms()
-deactivate TT
 
+M -[#DarkRed]-> TT: sendProblemToTeams(data)
+
+deactivate M
+deactivate TT
 @enduml

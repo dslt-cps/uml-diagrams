@@ -1,0 +1,34 @@
+/' FACTORY METHOD '/
+
+@startuml Factory_Method
+
+title Patrón de diseño Factory 
+
+class Creator {
+    + factoryMethod()
+    + anOperation()
+}
+
+class ConcreteCreator {
+    + factoryMethod()
+}
+
+interface Product
+
+class ConcreteProduct
+
+hide empty members
+
+Product <|-- ConcreteProduct
+Creator <|-- ConcreteCreator
+ConcreteProduct <. ConcreteCreator
+
+note as N1
+    <b><color:royalBlue>Factory Method</color></b>
+    <b>Type:</b> Creational
+    Definir una interfaz para crear un objeto,
+    pero permite que las subclases decidan que subclases crear.  
+
+end note
+
+@enduml
