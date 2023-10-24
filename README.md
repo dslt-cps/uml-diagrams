@@ -22,4 +22,11 @@ Diagramas (ejemplos) de UML en PlantUML
 - [PlantUML Hitchhiker's Guide](https://crashedmind.github.io/PlantUMLHitchhikersGuide/index.html)
 - [PlantUML Official Documentation](https://plantuml.com/)
 
+**Recursos: PlantUML Deployment Diagrams** 
+1. [plantuml-icon-font-sprites](https://github.com/tupadr3/plantuml-icon-font-sprites)
+2. [AWS-PlantUML](https://github.com/milo-minderbinder/AWS-PlantUML)
+3. [cicon-plantuml-sprites](https://github.com/plantuml-stdlib/cicon-plantuml-sprites)
+4. [cicon-plantuml-sprites](https://github.com/plantuml-stdlib/cicon-plantuml-sprites)
+5. [PlantUML-Examples](https://github.com/mattjhayes/PlantUML-Examples/tree/master)
+6. [PlantUML Deployment Diagrams](https://www.webdevtutor.net/blog/plantuml-deployment-diagrams-for-devops#google_vignette)
 
