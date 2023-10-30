@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="375px" preserveAspectRatio="none" style="width:1445px;height:375px;background:#FFFFFF;" version="1.1" viewBox="0 0 1445 375" width="1445px" zoomAndPan="magnify"><defs/><g><rect fill="none" height="27.6094" id="_title" style="stroke:none;stroke-width:1.0;" width="186" x="622.75" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="176" x="627.75" y="24.5332">&lt;&lt; Prepago-AUP Datos &gt;&gt;</text><!--MD5=[dc7fb56487618d91d540ed1a4700aa4b]
+entity pm--><g id="elem_pm"><ellipse cx="465.5" cy="185.7188" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M465.5,193.7188 L465.5,220.7188 M452.5,201.7188 L478.5,201.7188 M465.5,220.7188 L452.5,235.7188 M465.5,220.7188 L478.5,235.7188 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="68" x="431.5" y="251.752">Supervisor</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="38" x="446.5" y="174.1426">«soc»</text></g><!--MD5=[0050c6625e3b42e2857ba4d8ed699679]
+entity operator--><g id="elem_operator"><ellipse cx="576.5" cy="185.7188" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M576.5,193.7188 L576.5,220.7188 M563.5,201.7188 L589.5,201.7188 M576.5,220.7188 L563.5,235.7188 M576.5,220.7188 L589.5,235.7188 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="61" x="546" y="251.752">Operador</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="84" x="534.5" y="174.1426">«asignación»</text></g><!--MD5=[de986dcb507bf2f296d81308ef3245eb]
+entity cu--><g id="elem_cu"><path d="M802.5,47.1094 L802.5,97.3281 A2.5,2.5 0 0 0 805,99.8281 L954,99.8281 A2.5,2.5 0 0 0 956.5,97.3281 L956.5,54.6094 L946.5,44.6094 L805,44.6094 A2.5,2.5 0 0 0 802.5,47.1094 " fill="#F1F1F1" style="stroke:#181818;stroke-width:0.5;"/><path d="M946.5,44.6094 L946.5,52.1094 A2.5,2.5 0 0 0 949,54.6094 L956.5,54.6094 " fill="#F1F1F1" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="95" x="832" y="69.1426">«caso-de-uso»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="134" x="812.5" y="86.752">Prepago_AUP_Datos</text></g><!--MD5=[0fa9c42bbf9867f4996ed55340fc5264]
+entity F_Olleros_Virtual--><g id="elem_F_Olleros_Virtual"><rect fill="#F1F1F1" height="55.2188" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="130" x="653.5" y="179.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="38" x="699.5" y="204.1426">«site»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="110" x="663.5" y="221.752">F_Olleros_Virtual</text></g><!--MD5=[c4396a7a0bfba85b3442f99ca7c3e733]
+entity Uruguay_Virtual--><g id="elem_Uruguay_Virtual"><rect fill="#F1F1F1" height="55.2188" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="121" x="819" y="179.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="38" x="860.5" y="204.1426">«site»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="101" x="829" y="221.752">Uruguay_Virtual</text></g><!--MD5=[50aa772c028b76d64e546841607bd105]
+entity H_Córdoba_Virtual--><g id="elem_H_Córdoba_Virtual"><rect fill="#F1F1F1" height="55.2188" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="140" x="975.5" y="179.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="38" x="1026.5" y="204.1426">«site»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="120" x="985.5" y="221.752">H_Córdoba_Virtual</text></g><!--MD5=[01236f066c5c574b238aeef0b2a29514]
+entity Paraguay_Virtual--><g id="elem_Paraguay_Virtual"><rect fill="#F1F1F1" height="55.2188" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="129" x="1151" y="179.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="38" x="1196.5" y="204.1426">«site»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="109" x="1161" y="221.752">Paraguay_Virtual</text></g><!--MD5=[07dd0a4238f4215e50391779e32f36f7]
+entity Rosario_Backup--><g id="elem_Rosario_Backup"><rect fill="#F1F1F1" height="55.2188" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="124" x="1315.5" y="179.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="38" x="1358.5" y="204.1426">«site»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="104" x="1325.5" y="221.752">Rosario_Backup</text></g><!--MD5=[5f265a99111fbd5d5a4c4b2f88b972d3]
+entity CCRUpdate--><g id="elem_CCRUpdate"><rect fill="#F1F1F1" height="55.2188" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="95" x="7" y="314.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="35" x="37" y="339.1426">«kpi»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="75" x="17" y="356.752">CCRUpdate</text></g><!--MD5=[8953b86ccfeaa072c56acb6a43447cfd]
+entity CCRinital--><g id="elem_CCRinital"><rect fill="#F1F1F1" height="55.2188" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="79" x="137" y="314.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="35" x="159" y="339.1426">«kpi»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="59" x="147" y="356.752">CCRinital</text></g><!--MD5=[d5f70db3457349118d10c8048c6e66e4]
+entity CCRTerminate--><g id="elem_CCRTerminate"><rect fill="#F1F1F1" height="55.2188" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="114" x="251.5" y="314.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="35" x="291" y="339.1426">«kpi»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="94" x="261.5" y="356.752">CCRTerminate</text></g><!--MD5=[4e3f767a693f90b97eff4b4ff880cb03]
+entity DiamSuccess--><g id="elem_DiamSuccess"><rect fill="#F1F1F1" height="55.2188" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="105" x="401" y="314.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="35" x="436" y="339.1426">«kpi»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="85" x="411" y="356.752">DiamSuccess</text></g><!--MD5=[8e99e963c556922c9061720ab861e3a8]
+entity DiamUnableToComply--><g id="elem_DiamUnableToComply"><rect fill="#F1F1F1" height="55.2188" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="160" x="541.5" y="314.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="35" x="604" y="339.1426">«kpi»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="140" x="551.5" y="356.752">DiamUnableToComply</text></g><!--MD5=[52a02db38ad843382195275ea8449b9c]
+entity DiamUnableToDeliver--><g id="elem_DiamUnableToDeliver"><rect fill="#F1F1F1" height="55.2188" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="157" x="737" y="314.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="35" x="798" y="339.1426">«kpi»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="137" x="747" y="356.752">DiamUnableToDeliver</text></g><!--MD5=[a80fa23e31653bce7235b410ccc21c9a]
+entity FilteredCCRInital--><g id="elem_FilteredCCRInital"><rect fill="#F1F1F1" height="55.2188" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="127" x="929" y="314.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="35" x="975" y="339.1426">«kpi»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="107" x="939" y="356.752">FilteredCCRInital</text></g><!--MD5=[bb55ef901045964f5753d8fad7239077]
+entity UnknowResultCode--><g id="elem_UnknowResultCode"><rect fill="#F1F1F1" height="55.2188" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="143" x="1091" y="314.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="35" x="1145" y="339.1426">«kpi»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="123" x="1101" y="356.752">UnknowResultCode</text></g><!--MD5=[a1874e959b49a3bcf89be4c74f5ba931]
+entity idem--><g id="elem_idem"><rect fill="#F1F1F1" height="55.2188" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="55" x="1269" y="314.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="35" x="1279" y="339.1426">«kpi»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="30" x="1281.5" y="356.752">idem</text></g><!--MD5=[0413331975ebb2ea55558af183e8e974]
+link cu to pm--><g id="link_cu_pm"><path d="M802.22,80.1594 C725.9,89.6694 607.7,111.3594 516.5,159.6094 C512.13,161.9194 507.85,164.6994 503.73,167.7194 " fill="none" id="cu-to-pm" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="499.68,170.8294,509.2569,168.5308,503.649,167.7884,504.3913,162.1805,499.68,170.8294" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[708fc735df8da2edb30e9dad3d14ff1e]
+link cu to operator--><g id="link_cu_operator"><path d="M802.28,93.4194 C752.86,108.0994 688.33,130.4694 635.5,159.6094 C631.22,161.9694 626.92,164.6394 622.71,167.4694 " fill="none" id="cu-to-operator" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="618.54,170.3594,628.2225,168.5568,622.6602,167.5267,623.6903,161.9644,618.54,170.3594" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[f6843ce532abd0d57b1147cd0354d9dd]
+link cu to F_Olleros_Virtual--><g id="link_cu_F_Olleros_Virtual"><path d="M847.31,99.6994 C820.54,121.8094 782.47,153.2594 754.66,176.2394 " fill="none" id="cu-to-F_Olleros_Virtual" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="750.64,179.5594,760.1264,176.9122,754.4951,176.3753,755.032,170.744,750.64,179.5594" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[9ff5f44fea909e9513f76ddbed171ab0]
+link cu to Uruguay_Virtual--><g id="link_cu_Uruguay_Virtual"><path d="M879.5,99.6994 C879.5,121.2694 879.5,151.7194 879.5,174.5294 " fill="none" id="cu-to-Uruguay_Virtual" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="879.5,179.5594,883.5,170.5594,879.5,174.5594,875.5,170.5594,879.5,179.5594" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[72b4b8ef9b65ae4a6030ea43db1f0b77]
+link cu to H_Córdoba_Virtual--><g id="link_cu_H_Córdoba_Virtual"><path d="M912.69,99.6994 C940.29,121.8094 979.54,153.2594 1008.21,176.2394 " fill="none" id="cu-to-H_Córdoba_Virtual" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1012.36,179.5594,1007.8427,170.8076,1008.4598,176.4307,1002.8368,177.0478,1012.36,179.5594" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[05830b05986e893daa2790d6b05e2d67]
+link cu to Paraguay_Virtual--><g id="link_cu_Paraguay_Virtual"><path d="M956.72,95.5094 C1007.55,111.2294 1075.07,133.9594 1132.5,159.6094 C1143.95,164.7194 1155.91,170.8894 1167.07,177.0494 " fill="none" id="cu-to-Paraguay_Virtual" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1171.47,179.4894,1165.5452,171.622,1167.0992,177.0612,1161.66,178.6152,1171.47,179.4894" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[a11bf34f24115516f9cd1ee1d3488a04]
+link cu to Rosario_Backup--><g id="link_cu_Rosario_Backup"><path d="M956.72,81.5194 C1042.23,92.5494 1183.12,115.8594 1297.5,159.6094 C1309.55,164.2194 1321.92,170.5194 1333.22,176.9894 " fill="none" id="cu-to-Rosario_Backup" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1337.66,179.5694,1331.8867,171.5901,1333.3365,177.058,1327.8685,178.5078,1337.66,179.5694" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[467c95b534fc8534ecbc92c4f2098841]
+link F_Olleros_Virtual to CCRUpdate--><g id="link_F_Olleros_Virtual_CCRUpdate"><path d="M678.6,234.6594 C665.38,242.2894 650.27,249.8294 635.5,254.6094 C415.85,325.7494 343.12,257.1694 119.5,314.6094 C115.43,315.6594 111.27,316.8994 107.13,318.2694 " fill="none" id="F_Olleros_Virtual-to-CCRUpdate" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="102.28,319.9394,112.092,320.7906,107.0075,318.3112,109.4869,313.2267,102.28,319.9394" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[efa33c3df4025cc4b20a667405c41983]
+link F_Olleros_Virtual to CCRinital--><g id="link_F_Olleros_Virtual_CCRinital"><path d="M678.08,234.6094 C664.96,242.1494 650.03,249.6394 635.5,254.6094 C464.57,313.0494 406.52,262.6594 233.5,314.6094 C229.37,315.8494 225.15,317.3394 220.98,318.9694 " fill="none" id="F_Olleros_Virtual-to-CCRinital" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="216.11,320.9494,225.954,321.2581,220.7405,319.0629,222.9356,313.8493,216.11,320.9494" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[74235b6d5e993f1e97cf825c6d14bb70]
+link F_Olleros_Virtual to CCRTerminate--><g id="link_F_Olleros_Virtual_CCRTerminate"><path d="M676.1,234.8294 C663.4,242.0094 649.19,249.2594 635.5,254.6094 C528.25,296.4794 493.93,282.0494 383.5,314.6094 C379.22,315.8694 374.83,317.2394 370.41,318.6594 " fill="none" id="F_Olleros_Virtual-to-CCRTerminate" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="365.62,320.2194,375.4178,321.2211,370.3719,318.6639,372.9291,313.6181,365.62,320.2194" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[2fe7259583a62ba28ccdf14c2d11ad13]
+link F_Olleros_Virtual to DiamSuccess--><g id="link_F_Olleros_Virtual_DiamSuccess"><path d="M672.27,234.7294 C660.37,241.3794 647.53,248.3894 635.5,254.6094 C594.31,275.9094 546.98,298.3394 510.91,315.0194 " fill="none" id="F_Olleros_Virtual-to-DiamSuccess" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="506.13,317.2294,515.9778,317.0838,510.6685,315.1314,512.621,309.8221,506.13,317.2294" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[b9773446371a76ca53bff7d9e6752476]
+link F_Olleros_Virtual to DiamUnableToComply--><g id="link_F_Olleros_Virtual_DiamUnableToComply"><path d="M699.1,234.6994 C683.18,256.5394 660.61,287.4894 643.91,310.3794 " fill="none" id="F_Olleros_Virtual-to-DiamUnableToComply" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="640.86,314.5594,649.3988,309.6514,643.8094,310.5219,642.9389,304.9324,640.86,314.5594" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[a1caea0295b18a171acc6bd6f832c34a]
+link F_Olleros_Virtual to DiamUnableToDeliver--><g id="link_F_Olleros_Virtual_DiamUnableToDeliver"><path d="M737.9,234.6994 C753.82,256.5394 776.39,287.4894 793.09,310.3794 " fill="none" id="F_Olleros_Virtual-to-DiamUnableToDeliver" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="796.14,314.5594,794.0611,304.9324,793.1906,310.5219,787.6012,309.6514,796.14,314.5594" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[3a7a7cbd24823ab20168478818304bef]
+link F_Olleros_Virtual to FilteredCCRInital--><g id="link_F_Olleros_Virtual_FilteredCCRInital"><path d="M764.22,234.6394 C776.24,241.3594 789.26,248.4294 801.5,254.6094 C842.08,275.1194 888.52,296.1994 925.45,312.4194 " fill="none" id="F_Olleros_Virtual-to-FilteredCCRInital" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="930.37,314.5794,923.7469,307.29,925.7945,312.5633,920.5212,314.6108,930.37,314.5794" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[b325e7c9af494a83b5330cb760f2ff66]
+link F_Olleros_Virtual to UnknowResultCode--><g id="link_F_Olleros_Virtual_UnknowResultCode"><path d="M760.41,234.7394 C773.23,241.9994 787.61,249.3194 801.5,254.6094 C917.19,298.6694 953.65,283.5894 1073.5,314.6094 C1077.54,315.6594 1081.67,316.7594 1085.83,317.8994 " fill="none" id="F_Olleros_Virtual-to-UnknowResultCode" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1090.73,319.2594,1083.1184,313.0093,1085.9102,317.9293,1080.9902,320.7211,1090.73,319.2594" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[1ebac50eb2a5c048bbd30e9fdf5918f7]
+link Uruguay_Virtual to idem--><g id="link_Uruguay_Virtual_idem"><path d="M918.27,234.6994 C930.4,242.0594 944.12,249.4294 957.5,254.6094 C1081.86,302.7694 1127.01,266.7894 1251.5,314.6094 C1255.73,316.2294 1260.02,318.2294 1264.18,320.3994 " fill="none" id="Uruguay_Virtual-to-idem" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1268.65,322.7994,1262.6252,315.0083,1264.2486,320.4272,1258.8296,322.0506,1268.65,322.7994" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[c474ebae432ec9fc306980ef09db5a86]
+link H_Córdoba_Virtual to idem--><g id="link_H_Córdoba_Virtual_idem"><path d="M1095.69,234.7994 C1108.03,241.3194 1121.23,248.2494 1133.5,254.6094 C1185.73,281.6894 1199.9,286.3394 1251.5,314.6094 C1255.59,316.8494 1259.85,319.2594 1264.05,321.6794 " fill="none" id="H_Córdoba_Virtual-to-idem" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1268.57,324.2994,1262.7967,316.3201,1264.2465,321.788,1258.7785,323.2378,1268.57,324.2994" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[0903d0eb4724284cf2c1d2941e2b1600]
+link Paraguay_Virtual to idem--><g id="link_Paraguay_Virtual_idem"><path d="M1231.7,234.6994 C1244.94,256.4494 1263.69,287.2294 1277.61,310.0994 " fill="none" id="Paraguay_Virtual-to-idem" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1280.33,314.5594,1279.0673,304.7918,1277.7303,310.2884,1272.2337,308.9514,1280.33,314.5594" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[2651370e25403b173b9a3c98e7b8e7f4]
+link Rosario_Backup to idem--><g id="link_Rosario_Backup_idem"><path d="M1361.3,234.6994 C1348.06,256.4494 1329.31,287.2294 1315.39,310.0994 " fill="none" id="Rosario_Backup-to-idem" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1312.67,314.5594,1320.7663,308.9514,1315.2697,310.2884,1313.9327,304.7918,1312.67,314.5594" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[280070b1dd04c1f63e37ba4faad60e7f]
+@startuml cu-02
+
+!define BlueGreen [color=blue]
+!define GreenBlue [color=green]
+
+
+title << Prepago-AUP Datos >>
+
+
+actor "Supervisor" <<soc>> as pm
+actor "Operador" <<asignación>> as operator
+
+file "Prepago_AUP_Datos" <<caso-de-uso>> as cu 
+
+rectangle F_Olleros_Virtual <<site>> 
+rectangle Uruguay_Virtual <<site>>  
+rectangle H_Córdoba_Virtual <<site>>
+rectangle Paraguay_Virtual <<site>>
+rectangle Rosario_Backup <<site>> 
+
+rectangle CCRUpdate <<kpi>>
+rectangle CCRinital <<kpi>>
+rectangle CCRTerminate <<kpi>>
+rectangle DiamSuccess <<kpi>>
+rectangle DiamUnableToComply <<kpi>>
+rectangle DiamUnableToDeliver <<kpi>>
+rectangle FilteredCCRInital<<kpi>>
+rectangle UnknowResultCode <<kpi>>
+
+rectangle idem <<kpi>>
+
+cu - -> pm
+cu - -> operator
+cu - -> F_Olleros_Virtual
+cu - -> Uruguay_Virtual
+cu - -> H_Córdoba_Virtual
+cu - -> Paraguay_Virtual
+cu - -> Rosario_Backup
+
+F_Olleros_Virtual - -> CCRUpdate
+F_Olleros_Virtual - -> CCRinital
+F_Olleros_Virtual - -> CCRTerminate
+F_Olleros_Virtual - -> DiamSuccess
+F_Olleros_Virtual - -> DiamUnableToComply
+F_Olleros_Virtual - -> DiamUnableToDeliver
+F_Olleros_Virtual - -> FilteredCCRInital
+F_Olleros_Virtual - -> UnknowResultCode
+
+Uruguay_Virtual   - -> idem
+H_Córdoba_Virtual - -> idem
+Paraguay_Virtual  - -> idem
+Rosario_Backup    - -> idem
+
+@enduml
+
+@startuml cu-02
+
+
+
+title << Prepago-AUP Datos >>
+
+
+actor "Supervisor" <<soc>> as pm
+actor "Operador" <<asignación>> as operator
+
+file "Prepago_AUP_Datos" <<caso-de-uso>> as cu 
+
+rectangle F_Olleros_Virtual <<site>> 
+rectangle Uruguay_Virtual <<site>>  
+rectangle H_Córdoba_Virtual <<site>>
+rectangle Paraguay_Virtual <<site>>
+rectangle Rosario_Backup <<site>> 
+
+rectangle CCRUpdate <<kpi>>
+rectangle CCRinital <<kpi>>
+rectangle CCRTerminate <<kpi>>
+rectangle DiamSuccess <<kpi>>
+rectangle DiamUnableToComply <<kpi>>
+rectangle DiamUnableToDeliver <<kpi>>
+rectangle FilteredCCRInital<<kpi>>
+rectangle UnknowResultCode <<kpi>>
+
+rectangle idem <<kpi>>
+
+cu - -> pm
+cu - -> operator
+cu - -> F_Olleros_Virtual
+cu - -> Uruguay_Virtual
+cu - -> H_Córdoba_Virtual
+cu - -> Paraguay_Virtual
+cu - -> Rosario_Backup
+
+F_Olleros_Virtual - -> CCRUpdate
+F_Olleros_Virtual - -> CCRinital
+F_Olleros_Virtual - -> CCRTerminate
+F_Olleros_Virtual - -> DiamSuccess
+F_Olleros_Virtual - -> DiamUnableToComply
+F_Olleros_Virtual - -> DiamUnableToDeliver
+F_Olleros_Virtual - -> FilteredCCRInital
+F_Olleros_Virtual - -> UnknowResultCode
+
+Uruguay_Virtual   - -> idem
+H_Córdoba_Virtual - -> idem
+Paraguay_Virtual  - -> idem
+Rosario_Backup    - -> idem
+
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 14:01:30 ART 2022)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: es
+Country: AR
+--></g></svg>

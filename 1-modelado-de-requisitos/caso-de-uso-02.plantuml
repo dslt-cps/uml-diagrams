@@ -1,0 +1,54 @@
+@startuml cu-02
+
+!define BlueGreen [color=blue]
+!define GreenBlue [color=green]
+
+
+title << Prepago-AUP Datos >>
+
+
+actor "Supervisor" <<soc>> as super
+actor "Operador" <<asignación>> as operator
+
+file #lightGreen "Prepago_AUP_Datos" <<caso-de-uso>> as cu 
+
+rectangle #lightBlue F_Olleros_Virtual <<site>> 
+rectangle #lightBlue Uruguay_Virtual <<site>>  
+rectangle #lightBlue H_Córdoba_Virtual <<site>>
+rectangle #lightBlue Paraguay_Virtual <<site>>
+rectangle #lightBlue Rosario_Backup <<site>> 
+
+rectangle #lightYellow CCRUpdate <<R00_kpi>>
+rectangle #lightYellow CCRinital <<R01_kpi>>
+rectangle #lightYellow CCRTerminate <<R02_kpi_R02>>
+rectangle #lightYellow DiamSuccess <<R03_kpi>>
+rectangle #lightYellow DiamUnableToComply <<R04_kpi>>
+rectangle #lightYellow DiamUnableToDeliver <<R05_kpi>>
+rectangle #lightYellow FilteredCCRInital<<R06_kpi>>
+rectangle #lightYellow UnknowResultCode <<R07_kpi>>
+
+rectangle #lightGray idem <<R08_to_R32_kpi>>
+
+cu --> super
+cu --> operator
+cu --> F_Olleros_Virtual
+cu --> Uruguay_Virtual
+cu --> H_Córdoba_Virtual
+cu --> Paraguay_Virtual
+cu --> Rosario_Backup
+
+F_Olleros_Virtual --> CCRUpdate
+F_Olleros_Virtual --> CCRinital
+F_Olleros_Virtual --> CCRTerminate
+F_Olleros_Virtual --> DiamSuccess
+F_Olleros_Virtual --> DiamUnableToComply
+F_Olleros_Virtual --> DiamUnableToDeliver
+F_Olleros_Virtual --> FilteredCCRInital
+F_Olleros_Virtual --> UnknowResultCode
+
+Uruguay_Virtual   --> idem
+H_Córdoba_Virtual --> idem
+Paraguay_Virtual  --> idem
+Rosario_Backup    --> idem
+
+@enduml
