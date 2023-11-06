@@ -1,0 +1,41 @@
+@startuml c1_Notificaciones_Proactivas
+'!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4.puml
+
+title Context Diagram - Notificaciones proactivas
+
+!include ../C4-PlantUML/C4_Context.puml
+!define ICONS https://raw.githubusercontent.com/tupadr3/plantuml-icon-font-sprites/master/
+ 
+!include ICONS/font-awesome-5/users.puml
+!include ICONS/font-awesome-5/user_tie.puml
+!include ICONS/material/contact_phone.puml
+ 
+LAYOUT_AS_SKETCH()
+LAYOUT_LEFT_RIGHT()
+LAYOUT_WITH_LEGEND()
+ 
+Person_Ext(user, "Clients", "Clients who are using OOO service", "users")
+Boundary(new, "Customer service using CLOVA AiCall") {
+ 
+  Boundary(legacy, "Legacy customer service"){
+    System_Ext(cc, "Contact Center", "Contact point, switches customer calls.")
+    Person_Ext(counselor, "Customer counselors", "Interacts with customers to handle complaints, process orders, and provide information about OOO service.", "contact_phone")
+    System_Ext(ars, "ARS", "Interacts with customers when counselors are not available.")
+ 
+    Rel(user, cc, "Makes a call")
+    Rel(cc, counselor, "Connects and forwards a call to")
+    Rel(cc, ars, "Connects and forwards a call to")
+  }
+ 
+  System(ccai, "Notificaciones proactivas", "Monitoreo Interno.")
+   
+  Rel(cc, ccai, "Connects and forwards a call to")
+   
+}
+ 
+Person_Ext(manager, "Manager", "Makes a decision from statistics provided by CLOVA AiCall", "user_tie")
+Rel(manager, ccai, "Retrives statistics from")
+ 
+
+
+@enduml

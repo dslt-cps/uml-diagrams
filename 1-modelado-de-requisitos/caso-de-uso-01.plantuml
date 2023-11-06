@@ -1,14 +1,18 @@
-@startuml cu-01
+@startuml cu1
 left to right direction
-skinparam packageStyle rect
-actor Cliente as customer
-actor Cajero as cashier
-rectangle "Máquina Expendedora de Refrescos" {
-  customer -- (Seleccionar Refresco)
-  (Seleccionar Refresco) .> (Realizar Pago) : include
-  (Devolver Cambio) -- (Realizar Pago) : extend
-  (Solicitar Ayuda) .> (Seleccionar Refresco) : extends
-  (Seleccionar Refresco) -- cashier
+actor Guest as g
+package Professional {
+  actor Chef as c
+  actor "Food Critic" as fc
 }
+package Restaurant {
+  usecase "Eat Food" as UC1
+  usecase "Pay for Food" as UC2
+  usecase "Drink" as UC3
+  usecase "Review" as UC4
+}
+fc --> UC4
+g --> UC1
+g --> UC2
+g --> UC3
 @enduml
-
